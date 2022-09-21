@@ -3,15 +3,15 @@
 	a) leia um conjunto de valores inteiros correspondente a 80 notas dos 
 	alunos de uma turma (as notas variam de 0 a 10).
 	 
-	b) calcule a freqüência absoluta e a freqüência relativa de cada nota.
+	b) calcule a freqÃ¼Ãªncia absoluta e a freqÃ¼Ãªncia relativa de cada nota.
 	 
 	c) imprima uma tabela contendo os valores das notas (de 0 a 10) e suas 
-	respectivas freqüências, absoluta e relativa. 
+	respectivas freqÃ¼Ãªncias, absoluta e relativa. 
 	
-	Obs.: 1 - Freqüência absoluta de uma nota é o número de vezes em que 
+	Obs.: 1 - FreqÃ¼Ãªncia absoluta de uma nota Ã© o nÃºmero de vezes em que 
 	ela aparece no conjunto de dados. 
 	
-	2 - Freqüência relativa é a freqüência absoluta dividida pelo número total de dados.
+	2 - FreqÃ¼Ãªncia relativa Ã© a freqÃ¼Ãªncia absoluta dividida pelo nÃºmero total de dados.
  
 
 */
