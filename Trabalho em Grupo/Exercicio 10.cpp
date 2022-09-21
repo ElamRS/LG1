@@ -1,6 +1,6 @@
 /*Elabore um algoritmo que utilize um array (matriz 1D) para ler 10 elementos em
 uma matriz A tipo vetor. 
-Criar uma matriz B de mesma dimens„o, sendo que cada
+Criar uma matriz B de mesma dimens√£o, sendo que cada
 elemento da matriz B seja o dobro do elemento correspondente da matriz A. 
 Exibir os elementos da matriz B ordenados de forma crescente e efetuar a rotina de pesquisa.
 */
@@ -17,7 +17,7 @@ int A[10], B[10], POSI,j,x;
 int acha,pesq;
 char resp;
 do {
-printf("Digite na posiÁ„o %d : ", POSI+1);
+printf("Digite na posi√ß√£o %d : ", POSI+1);
 scanf("%d", &A[POSI]);
 printf ("\n");
 POSI++;
@@ -25,7 +25,7 @@ POSI++;
 
 for (POSI=0; POSI<10; POSI++){
 	B[POSI]= A[POSI]*2;
-printf("\nNa posiÁ„o B%d o valor de %d ser· de %d\n",POSI+1, A[POSI],B[POSI]);
+printf("\nNa posi√ß√£o B%d o valor de %d ser√° de %d\n",POSI+1, A[POSI],B[POSI]);
 }
 printf("\n");
 for (POSI=0;POSI<=10;POSI++){
@@ -46,7 +46,7 @@ for (POSI=0;POSI<=10;POSI++){
     resp='s';
     while(resp == 's' || resp == 'S')
     {
-               printf("\n Entre com o n˙mero a ser pesquisado:");
+               printf("\n Entre com o n√∫mero a ser pesquisado:");
                fflush(stdin); scanf("%d", &pesq);
                POSI=0;
                acha=0;
@@ -57,7 +57,7 @@ for (POSI=0;POSI<=10;POSI++){
                       else
                       POSI += 1;
                       if (acha == 1)
-                               printf ("%d foi localizado na posiÁ„o %d", pesq, POSI+1);
+                               printf ("%d foi localizado na posi√ß√£o %d", pesq, POSI+1);
                       else 
                       printf ("%d nao foi localizado!", pesq);
                       printf ("\n\nDeseja continuar a pesquisa? [S]IM / [N]AO + <enter>");
