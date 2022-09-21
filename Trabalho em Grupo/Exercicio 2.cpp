@@ -1,5 +1,5 @@
-// FA«A UM PROGRAMA QUE LEIA O NOME E SALARIO DOS FUNCIONARIOS
-// EM SEGUIDA, FA«A UM REAJUSTE SALARIAL E POR FIM EXIBA:
+// FA√áA UM PROGRAMA QUE LEIA O NOME E SALARIO DOS FUNCIONARIOS
+// EM SEGUIDA, FA√áA UM REAJUSTE SALARIAL E POR FIM EXIBA:
 // NOME, % DE AUMENTO, SALARIO ATUAL, SALARIO NOVO.
 
 
@@ -7,7 +7,7 @@
 
 
 // TABELA USADA PARA FAZER O REAJUSTE:
-// 0,00 atÈ 400,00 = 15%
+// 0,00 at√© 400,00 = 15%
 // 401,00 entre 700,00 = 12%
 // 701,00 entre 1000,00 = 10%
 // 1001,00 entre 1800,00 = 7%
@@ -23,7 +23,7 @@
 int main ()
 
 {
-	// 	DECLARA«√O DE VARI¡VEIS //
+	// 	DECLARA√á√ÉO DE VARI√ÅVEIS //
 	
 	
 setlocale (LC_ALL, "portuguese");
@@ -31,12 +31,12 @@ char nome [35];
 float salario, ns;
 int porcentagem;
 
-	// ENTRADA E LEITURA DOS DADOS DO FUNCION¡RIO //
+	// ENTRADA E LEITURA DOS DADOS DO FUNCION√ÅRIO //
 
 	printf ("DIGITE SEU NOME: ");
 	fflush (stdin);
 	fgets (nome,35,stdin);	
-	printf ("\nDIGITE SEU SAL¡RIO ATUAL: R$ ");
+	printf ("\nDIGITE SEU SAL√ÅRIO ATUAL: R$ ");
 	scanf ("%f",&salario);
 	system ("cls");
 	
@@ -78,7 +78,7 @@ int porcentagem;
 								porcentagem = 0;
 							}	
 	
-	// EXIBI«√O DOS DADOS DO FUNCIONARIO //.
+	// EXIBI√á√ÉO DOS DADOS DO FUNCIONARIO //.
 		
 	printf("\nNOME COMPLETO: %s", nome);
 	printf ("PERCENTUAL DO AUMENTO: %i%%\n", porcentagem);
