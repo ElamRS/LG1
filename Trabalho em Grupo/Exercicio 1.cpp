@@ -9,7 +9,7 @@ int main(void)
 	
 	
 	while (r=='s'|| r=='S') {
-		j++; // cada resposta sim far· com que j aumente em 1 o valor
+		j++; // cada resposta sim far√° com que j aumente em 1 o valor
 		printf("Quantos pontos o time 1 vai fazer: ");
 		scanf("%d", &ap1);
 		printf("Quantos pontos o time 2 vai fazer: ");
@@ -18,7 +18,7 @@ int main(void)
 		fgets(nap, 60, stdin);
 		fgets(nap, 60, stdin);
 		
-		printf("Se mais alguÈm quiser participar da partida digite 'S' se n„o 'N' + <ENTER>:");
+		printf("Se mais algu√©m quiser participar da partida digite 'S' se n√£o 'N' + <ENTER>:");
 		scanf("%c", &r);
 		
 	}
@@ -29,7 +29,7 @@ int main(void)
 	};
 	struct apostadores resp[2];
 		
-	printf("\n       ¡REA DO ORGANIZADOR      \n");
+	printf("\n       √ÅREA DO ORGANIZADOR      \n");
 	printf("\n	 CONTROLE DE APOSTAS 	 \n\n");
 	
 		printf("\nDigite a quantidade de gols que o time 1 fez: ");
