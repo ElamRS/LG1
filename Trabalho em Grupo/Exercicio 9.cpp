@@ -1,6 +1,6 @@
 /*
-	9)- Dado um vetor de 50 números reais em ordem crescente, informe quantos desses 
-	números DIFERENTES também aparecem na diagonal principal de uma matriz 60x60.
+	9)- Dado um vetor de 50 nÃºmeros reais em ordem crescente, informe quantos desses 
+	nÃºmeros DIFERENTES tambÃ©m aparecem na diagonal principal de uma matriz 60x60.
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -10,7 +10,7 @@ int main(void) {
 	float aux, vetor[50], matriz[60][60];
 	int i, j, qtd_aparece=0;
 	
-	// Escrever valores aleatórios entre 0 e 100 na diagonal (e somente na diagonal) da matriz[60][60]
+	// Escrever valores aleatÃ³rios entre 0 e 100 na diagonal (e somente na diagonal) da matriz[60][60]
 	for (int i=0; i<60; i++) {
 		matriz[i][i] = rand() % 100;
 	}
