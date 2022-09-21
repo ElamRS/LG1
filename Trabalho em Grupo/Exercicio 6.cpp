@@ -12,7 +12,7 @@ int main(void) {
 	int opc;
 	char resp='s';
 	
-	// Adicionar valores aleatórios a matriz 6x6
+	// Adicionar valores aleatÃ³rios a matriz 6x6
 	for (int i=0; i<6; i++) {
 		for (int j=0; j<6; ++j) {
 			matriz[i][j] = rand() % 10; // valor random de 0 a 10
@@ -20,7 +20,7 @@ int main(void) {
 	}
 	
 	while (resp=='s') {
-		// Exibir ao usuário os valores da matriz 6x6, para fins de comparação com o resultado final
+		// Exibir ao usuÃ¡rio os valores da matriz 6x6, para fins de comparaÃ§Ã£o com o resultado final
 		for (int i=0; i<6; i++) {
 			printf("\t\t\t\t");
 			for (int j=0; j<6; j++) {
@@ -30,7 +30,7 @@ int main(void) {
 		}
 		printf("\n");
 	
-		// Menu de opções de soma
+		// Menu de opÃ§Ãµes de soma
 		printf(     "1)  0 # # # # #"      "  2)  # # # # # 0" 	       "    3)   0 # # # # 0" 	"  4)  0 0 0 0 0 0\n"
 		      	"    0 0 # # # #" 	   "\t     # # # # 0 0" 	       "\t 0 0 # # 0 0" 		"\t  # 0 0 0 0 0\n"
 		      	"    0 0 0 # # #" 	   "\t     # # # 0 0 0" 	       "\t 0 0 0 0 0 0" 		"\t  # # 0 0 0 0\n"
@@ -44,24 +44,24 @@ int main(void) {
 				"    # # 0 0 # #"     "\t     0 0 0 0 0 0"   "         # # 0 0 0 0"  "      # # 0 0 0 0\n"
 				"    # 0 0 0 0 #"     "\t     0 0 # # 0 0"   "         # 0 0 0 0 0"  "      # 0 # # 0 0\n"
 				"    0 0 0 0 0 0"     "\t     0 # # # # 0"   "         0 0 0 0 0 0"  "      0 # # # # 0\n\n");
-		// ler opção do usuário
-		printf("Opção de Soma: "); scanf("%d", &opc);
+		// ler opÃ§Ã£o do usuÃ¡rio
+		printf("OpÃ§Ã£o de Soma: "); scanf("%d", &opc);
 		// Switch de Controle
 		switch (opc) {
-			case 1: printf("A soma total da opção 1 é: %d", soma_1()); break;
-			case 2: printf("A soma total da opção 2 é: %d", soma_2()); break;
-			case 3: printf("A soma total da opção 3 é: %d", soma_3()); break;
-			case 4: printf("A soma total da opção 4 é: %d", soma_4()); break;
-			case 5: printf("A soma total da opção 5 é: %d", soma_5()); break;
-			case 6: printf("A soma total da opção 6 é: %d", soma_6()); break;
-			case 7: printf("A soma total da opção 7 é: %d", soma_7()); break;
-			case 8: printf("A soma total da opção 8 é: %d", soma_8()); break;
+			case 1: printf("A soma total da opÃ§Ã£o 1 Ã©: %d", soma_1()); break;
+			case 2: printf("A soma total da opÃ§Ã£o 2 Ã©: %d", soma_2()); break;
+			case 3: printf("A soma total da opÃ§Ã£o 3 Ã©: %d", soma_3()); break;
+			case 4: printf("A soma total da opÃ§Ã£o 4 Ã©: %d", soma_4()); break;
+			case 5: printf("A soma total da opÃ§Ã£o 5 Ã©: %d", soma_5()); break;
+			case 6: printf("A soma total da opÃ§Ã£o 6 Ã©: %d", soma_6()); break;
+			case 7: printf("A soma total da opÃ§Ã£o 7 Ã©: %d", soma_7()); break;
+			case 8: printf("A soma total da opÃ§Ã£o 8 Ã©: %d", soma_8()); break;
 			default:
-				printf("Opção Inválida. Tente Novamente.");
+				printf("OpÃ§Ã£o InvÃ¡lida. Tente Novamente.");
 				break;
 		}
 		getch(); // segurar a tela
-		soma = 0; // zerar a soma para caso o usuário queira executar novamente
+		soma = 0; // zerar a soma para caso o usuÃ¡rio queira executar novamente
 		printf("\nDeseja continuar somando o array? [s]: "); fflush(stdin); scanf("%c", &resp);
 		system("cls"); // Limpar a tela para exibir o menu novamente
 	}
@@ -112,7 +112,7 @@ int soma_4() {
 }
 
 int soma_5() {
-	// Somar Secção da esquerda
+	// Somar SecÃ§Ã£o da esquerda
 	int k;
 	for (int i=1; i<=4; i++) {
 		if (i==1 || i==4) {
@@ -125,7 +125,7 @@ int soma_5() {
 		}
 	}
 	
-	// Somar Secção da direita
+	// Somar SecÃ§Ã£o da direita
 	for (int i=1; i<=4; i++) {
 	    if (i==1 || i==4) {
 	        for (int j=5; j<=5; j++) {
